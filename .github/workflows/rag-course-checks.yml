@@ -1,0 +1,24 @@
+name: RAG course checks
+
+on:
+  pull_request:
+    paths:
+      - "cursos/rag-de-ponta/**"
+      - ".github/workflows/rag-course-checks.yml"
+  push:
+    paths:
+      - "cursos/rag-de-ponta/**"
+      - ".github/workflows/rag-course-checks.yml"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate course structure
+        run: python cursos/rag-de-ponta/scripts/validar_estrutura.py
+      - name: Compile shared Python files
+        run: python -m compileall cursos/rag-de-ponta/recursos-compartilhados/src

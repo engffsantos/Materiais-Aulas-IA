@@ -1,0 +1,8 @@
+-r colab.txt
+pytest
+pytest-cov
+ruff
+fastapi
+uvicorn
+httpx
+python-dotenv

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RAG Golden Dataset Item",
+  "type": "object",
+  "required": [
+    "id",
+    "question",
+    "category",
+    "answerable",
+    "relevant_document_ids"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "question": {
+      "type": "string",
+      "minLength": 1
+    },
+    "expected_answer": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "relevant_document_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "relevant_chunk_hints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "category": {
+      "type": "string"
+    },
+    "answerable": {
+      "type": "boolean"
+    },
+    "difficulty": {
+      "enum": [
+        "easy",
+        "medium",
+        "hard"
+      ]
+    },
+    "required_permissions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

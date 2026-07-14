@@ -1,0 +1,31 @@
+modulo,laboratorio,titulo,duracao,pasta
+0,01,Preparação do ambiente e repositório reproduzível,1h30,cursos/rag-de-ponta/modulos/modulo-00-preparacao-baseline/laboratorios/lab-00-01-preparacao-do-ambiente-e-repositorio-reproduzivel
+0,02,Construção do baseline RAG mensurável,2h30,cursos/rag-de-ponta/modulos/modulo-00-preparacao-baseline/laboratorios/lab-00-02-construcao-do-baseline-rag-mensuravel
+1,01,Matriz de decisão: RAG ou outra estratégia?,2h,cursos/rag-de-ponta/modulos/modulo-01-fundamentos-arquitetura/laboratorios/lab-01-01-matriz-de-decisao-rag-ou-outra-estrategia
+1,02,Architecture Canvas do projeto final,3h,cursos/rag-de-ponta/modulos/modulo-01-fundamentos-arquitetura/laboratorios/lab-01-02-architecture-canvas-do-projeto-final
+2,01,Implementação manual das métricas de recuperação,2h30,cursos/rag-de-ponta/modulos/modulo-02-recuperacao-metricas/laboratorios/lab-02-01-implementacao-manual-das-metricas-de-recuperacao
+2,02,Construção do Golden Dataset de RAG,3h,cursos/rag-de-ponta/modulos/modulo-02-recuperacao-metricas/laboratorios/lab-02-02-construcao-do-golden-dataset-de-rag
+3,01,"Pipeline de extração, limpeza e metadados",3h30,cursos/rag-de-ponta/modulos/modulo-03-engenharia-documental/laboratorios/lab-03-01-pipeline-de-extracao-limpeza-e-metadados
+3,02,"Ingestão incremental, deduplicação e versionamento",3h30,cursos/rag-de-ponta/modulos/modulo-03-engenharia-documental/laboratorios/lab-03-02-ingestao-incremental-deduplicacao-e-versionamento
+4,01,Benchmark de estratégias de chunking,3h30,cursos/rag-de-ponta/modulos/modulo-04-chunking-contextualizacao/laboratorios/lab-04-01-benchmark-de-estrategias-de-chunking
+4,02,Parent-child e contextual retrieval,3h30,cursos/rag-de-ponta/modulos/modulo-04-chunking-contextualizacao/laboratorios/lab-04-02-parent-child-e-contextual-retrieval
+5,01,Similaridade vetorial e validação de embeddings,2h30,cursos/rag-de-ponta/modulos/modulo-05-embeddings-indices/laboratorios/lab-05-01-similaridade-vetorial-e-validacao-de-embeddings
+5,02,Índice FAISS: busca exata e aproximação controlada,2h30,cursos/rag-de-ponta/modulos/modulo-05-embeddings-indices/laboratorios/lab-05-02-indice-faiss-busca-exata-e-aproximacao-controlada
+6,01,"BM25, busca densa e Reciprocal Rank Fusion",3h30,cursos/rag-de-ponta/modulos/modulo-06-busca-hibrida-reranking/laboratorios/lab-06-01-bm25-busca-densa-e-reciprocal-rank-fusion
+6,02,Reranking e compressão do contexto,3h30,cursos/rag-de-ponta/modulos/modulo-06-busca-hibrida-reranking/laboratorios/lab-06-02-reranking-e-compressao-do-contexto
+7,01,Vector Store gerenciado e ciclo de vida dos arquivos,2h30,cursos/rag-de-ponta/modulos/modulo-07-openai-vector-stores/laboratorios/lab-07-01-vector-store-gerenciado-e-ciclo-de-vida-dos-arquivos
+7,02,"File Search, filtros, citações e comparação arquitetural",2h30,cursos/rag-de-ponta/modulos/modulo-07-openai-vector-stores/laboratorios/lab-07-02-file-search-filtros-citacoes-e-comparacao-arquitetur
+8,01,Prompt fundamentado e citações auditáveis,2h30,cursos/rag-de-ponta/modulos/modulo-08-geracao-citacoes-abstencao/laboratorios/lab-08-01-prompt-fundamentado-e-citacoes-auditaveis
+8,02,"Abstenção, ambiguidade e conflito entre fontes",2h30,cursos/rag-de-ponta/modulos/modulo-08-geracao-citacoes-abstencao/laboratorios/lab-08-02-abstencao-ambiguidade-e-conflito-entre-fontes
+9,01,"Query rewriting, multi-query e HyDE",3h30,cursos/rag-de-ponta/modulos/modulo-09-query-transform-multihop/laboratorios/lab-09-01-query-rewriting-multi-query-e-hyde
+9,02,Decomposição e resposta multi-hop,3h30,cursos/rag-de-ponta/modulos/modulo-09-query-transform-multihop/laboratorios/lab-09-02-decomposicao-e-resposta-multi-hop
+10,01,Corrective RAG com LangGraph,3h30,cursos/rag-de-ponta/modulos/modulo-10-corrective-agentic-rag/laboratorios/lab-10-01-corrective-rag-com-langgraph
+10,02,Agentic RAG com ferramentas e orçamento,3h30,cursos/rag-de-ponta/modulos/modulo-10-corrective-agentic-rag/laboratorios/lab-10-02-agentic-rag-com-ferramentas-e-orcamento
+11,01,Mini-RAPTOR com recuperação hierárquica,2h30,cursos/rag-de-ponta/modulos/modulo-11-raptor-graphrag/laboratorios/lab-11-01-mini-raptor-com-recuperacao-hierarquica
+11,02,"Mini-GraphRAG: entidades, relações e consultas globais",2h30,cursos/rag-de-ponta/modulos/modulo-11-raptor-graphrag/laboratorios/lab-11-02-mini-graphrag-entidades-relacoes-e-consultas-globais
+12,01,"RAG multimodal para páginas, figuras e tabelas",2h30,cursos/rag-de-ponta/modulos/modulo-12-multimodal-estruturado-codigo/laboratorios/lab-12-01-rag-multimodal-para-paginas-figuras-e-tabelas
+12,02,"Roteamento entre documentos, dados estruturados e código",2h30,cursos/rag-de-ponta/modulos/modulo-12-multimodal-estruturado-codigo/laboratorios/lab-12-02-roteamento-entre-documentos-dados-estruturados-e-cod
+13,01,Avaliação automatizada com Ragas e métricas próprias,3h30,cursos/rag-de-ponta/modulos/modulo-13-avaliacao-observabilidade/laboratorios/lab-13-01-avaliacao-automatizada-com-ragas-e-metricas-proprias
+13,02,"Observabilidade, tracing e otimização orientada por evidências",3h30,cursos/rag-de-ponta/modulos/modulo-13-avaliacao-observabilidade/laboratorios/lab-13-02-observabilidade-tracing-e-otimizacao-orientada-por-e
+14,01,"Red team de RAG: prompt injection, poisoning e isolamento",2h30,cursos/rag-de-ponta/modulos/modulo-14-seguranca-producao/laboratorios/lab-14-01-red-team-de-rag-prompt-injection-poisoning-e-isolame
+14,02,"API, CI e defesa técnica do projeto final",3h30,cursos/rag-de-ponta/modulos/modulo-14-seguranca-producao/laboratorios/lab-14-02-api-ci-e-defesa-tecnica-do-projeto-final

@@ -1,0 +1,5 @@
+qdrant-client
+chromadb
+streamlit
+gradio
+langsmith

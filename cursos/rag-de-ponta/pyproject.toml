@@ -1,0 +1,13 @@
+[project]
+name = "rag-de-ponta-labs"
+version = "0.1.0"
+description = "Laboratórios didáticos do curso RAG de Ponta"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["recursos-compartilhados/src"]
+testpaths = ["recursos-compartilhados/tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

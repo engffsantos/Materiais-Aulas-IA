@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data and generated indexes
+**/data/raw/*
+**/data/processed/*
+**/indexes/*
+!**/data/**/README.md
+!**/data/**/.gitkeep
+
+# OS and editors
+.DS_Store
+.vscode/settings.json
